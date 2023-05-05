@@ -5,10 +5,6 @@ choice = input('Would you like me to do multiplication, division, addition, or s
 a = int(input("Okay, then please enter a digit."))
 b = int(input("Please enter another digit."))
 
-def take_in():
-    a = int(input("Okay, then please enter a digit."))
-    b = int(input("Please enter another digit."))
-    default = a+b
 if choice == "addition":
     answer_1 = (a+b)
     print( "So,", caps_name, ",", a, "+", b, "is", answer_1)
